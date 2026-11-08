@@ -1,0 +1,71 @@
+name: Bug report
+description: Something does not work as expected / Quelque chose ne fonctionne pas
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a problem! You can write in English or French.
+        Merci de prendre le temps de signaler un problème ! Vous pouvez écrire en anglais ou en français.
+
+        Please check the [existing issues](https://github.com/Furycom/proxy-android/issues) first. Do not include personal information (phone number, location) in screenshots.
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model / Modèle de téléphone
+      description: "Example: Huawei P30 (ELE-L29), Samsung Galaxy A51…"
+      placeholder: Huawei P30
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version / Version d'Android
+      description: "Settings → About phone. Add EMUI / One UI version if you know it."
+      placeholder: "Android 10 (EMUI 12)"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version / Version de l'app
+      description: "Settings → Apps → Proxy, or the name of the APK you installed."
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? / Que s'est-il passé ?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Étapes pour reproduire
+      description: How can we make it happen again?
+      placeholder: |
+        1. Open the app
+        2. Tap …
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often? / À quelle fréquence ?
+      options:
+        - Every time / À chaque fois
+        - Sometimes / Parfois
+        - Only once / Une seule fois
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else / Captures ou autre information
+      description: Drag and drop images or a short screen recording here.
+    validations:
+      required: false

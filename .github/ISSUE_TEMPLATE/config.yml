@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help / Questions et aide
+    url: https://github.com/Furycom/proxy-android/discussions
+    about: Not sure it's a bug, or wondering if your phone will work? Ask in Discussions. / Une question ? Posez-la dans les Discussions.
+  - name: Security vulnerability / Faille de sécurité
+    url: https://github.com/Furycom/proxy-android/security
+    about: Please report security problems privately, not in a public issue. / Signalez les failles en privé.

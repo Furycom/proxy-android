@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an idea for the app / Proposer une idée
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea! You can write in English or French.
+        Merci de partager une idée ! Vous pouvez écrire en anglais ou en français.
+
+        Please check the [roadmap](https://github.com/Furycom/proxy-android#roadmap--v11-planned) and the [existing issues](https://github.com/Furycom/proxy-android/issues) first.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do? / Qu'aimeriez-vous pouvoir faire ?
+      description: Describe what you are trying to do, and why it matters to you.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: How could the app help? / Comment l'app pourrait-elle aider ?
+      description: Your idea of how it could work. Sketches and screenshots are welcome.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? / Autre chose ?
+      description: Your phone model and Android version can help, if the idea depends on them.
+    validations:
+      required: false

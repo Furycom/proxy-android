@@ -1,0 +1,52 @@
+# Build output
+build/
+out/
+*.apk
+*.aab
+*.xapk
+*.apks
+*.idsig
+*.dex
+*.class
+*.jar
+
+# Signing keys and secrets - never commit these
+*.jks
+*.keystore
+*.p12
+*.pk8
+*.pem
+keystore.properties
+signing.properties
+*.env
+
+# Machine-specific settings
+local.properties
+
+# Logs
+*.log
+logs/
+
+# Backups and temporary files
+*.bak
+*.orig
+*.tmp
+*~
+sauvegarde*/
+backup*/
+
+# Gradle / IDE
+.gradle/
+.idea/
+*.iml
+.kotlin/
+captures/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Third-party assets that must never be redistributed
+puffco-logo.png
+*.ico
