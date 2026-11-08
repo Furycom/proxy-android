@@ -185,7 +185,6 @@ Download the new APK from the [Releases](https://github.com/Furycom/proxy-androi
 
 - ⭐ **Star this repository** — it helps other people with an older phone find the app.
 - 🐞 **Report bugs and share ideas** in [Issues](https://github.com/Furycom/proxy-android/issues), or ask questions in [Discussions](https://github.com/Furycom/proxy-android/discussions).
-- ☕ **Donations** — <!-- DONATION LINK --> coming soon.
 
 ### License
 
@@ -325,7 +324,6 @@ Téléchargez le nouvel APK dans la page [Releases](https://github.com/Furycom/p
 
 - ⭐ **Mettez une étoile à ce dépôt** : ça aide d'autres personnes qui ont un téléphone plus ancien à trouver l'application.
 - 🐞 **Signalez les bogues et proposez vos idées** dans les [Issues](https://github.com/Furycom/proxy-android/issues), ou posez vos questions dans les [Discussions](https://github.com/Furycom/proxy-android/discussions).
-- ☕ **Dons** — <!-- DONATION LINK --> bientôt.
 
 ### Licence
 
